@@ -8,13 +8,14 @@
 ## Functions Included in this Package
 > Before running this program, you must first download the biopython software. This will be downloaded 
 through conda. Enter the following into the command line of your terminal:
-
-**conda install -c anaconda biopython** 
-
+```
+conda install -c anaconda biopython 
+```
 If you need to install conda, follow this link below and it will guide you to download it for either
 Macintosh or Windows and update it to its current version.
-
+```
 https://conda.io/docs/user-guide/install/macos.html
+```
 
 >**ensembl_download.py**
 This python script takes in the user inputs of species1 and genesymbol to generate a python dictionary using a json decoder.
